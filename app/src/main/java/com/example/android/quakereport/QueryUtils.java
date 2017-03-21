@@ -37,6 +37,7 @@ public final class QueryUtils {
      * parsing a JSON response.
      */
     public static List<Earthquake> fetchEarthquakeData(String requestUrl) {
+        
         // Create URL object
         URL url = createUrl(requestUrl);
 
